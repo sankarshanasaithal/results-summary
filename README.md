@@ -23,3 +23,7 @@ The component displays:
   - Individual metrics for Reaction, Memory, Verbal, and Visual performance
   - Each metric shows score out of 100
   - Continue button for navigation
+
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/d722ae16-0683-423b-b554-d25ff97ea813)
