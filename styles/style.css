@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+}
+
+.container:hover{
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+}
+
+.result-card {
+    background: #6c5ce7;
+    color: white;
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.score-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.score-circle:hover {
+    background: rgb(57, 0, 171);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.211);
+}
+
+.score {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.of-100 {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+.status {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.description {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    line-height: 1.4;
+}
+
+.summary-card {
+    padding: 2rem;
+    width: 50%;
+}
+
+.summary-title {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.metric {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    margin: 1rem 0;
+    color: #333;
+    border-radius: 10px;
+}
+
+.metric:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.156);
+}
+
+#red {
+    background-color: #FFF6F5;
+    color: #FF5555;
+}
+
+#yellow {
+    background-color: #FFFBF2;
+    color: #FFB21E;
+}
+
+#green {
+    background-color: #F2FBFA;
+    color: #00BB8F;
+}
+
+#blue {
+    background-color: #F3F3FD;
+    color: #1125D6;
+}
+
+.metric-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.metric-name {
+    flex-grow: 1;
+}
+
+.metric-score {
+    color: #333;
+}
+
+.continue-btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background: #2d3436;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.continue-btn:hover {
+    background: #1e272e;
+}
